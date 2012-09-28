@@ -1,0 +1,13 @@
+---
+:backends: - yaml
+           - gpg
+
+:logger: console
+
+:hierarchy: - %{domain}
+            - common
+:yaml:
+   :datadir: /etc/puppet/hiera
+
+:gpg:
+   :datadir: /etc/puppet/hiera
